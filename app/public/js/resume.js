@@ -59,7 +59,7 @@ function weiter(fenster) {
     fenster1 = fenster;
     fenster2 = parseInt(fenster)+1;
     fenster2 = String(fenster2);
-      for(avar=0;avar<13;avar++){
+      for(avar=0;avar<22;avar++){
         $('#portfolioModal' + avar).removeClass('fade');
       }
       $('#portfolioModal' + fenster1).modal('hide');
@@ -70,7 +70,7 @@ function zurueck(fenster) {
     fenster1 = fenster;
     fenster2 = parseInt(fenster)-1;
     fenster2 = String(fenster2);
-      for(avar=0;avar<13;avar++){
+      for(avar=0;avar<22;avar++){
         $('#portfolioModal' + avar).removeClass('fade');
       }
       $('#portfolioModal' + fenster1).modal('hide');

@@ -2455,7 +2455,7 @@
     _proto._checkScrollbar = function _checkScrollbar() {
       var rect = document.body.getBoundingClientRect();
       this._isBodyOverflowing = rect.left + rect.right < window.innerWidth;
-      this._scrollbarWidth = this._getScrollbarWidth();
+      this._scrollbarWidth = 0;//this._getScrollbarWidth();
     };
 
     _proto._setScrollbar = function _setScrollbar() {
