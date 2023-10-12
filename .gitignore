@@ -2,7 +2,6 @@
 node_modules/
 npm-debug.log
 yarn-error.log
-package-lock.json
 
 # Optional: If you're using Yarn for dependency management, you can ignore this.
 yarn.lock
